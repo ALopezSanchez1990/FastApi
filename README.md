@@ -1,2 +1,2 @@
 # API-Tecnofinca
-API para la gestion de viviencas y usuarios de Tecnofinca
+API para la gestion de viviendas y usuarios de Tecnofinca

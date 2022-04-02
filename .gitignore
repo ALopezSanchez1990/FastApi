@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# TONI -> Archivos del venv
+api-tecnofinca/pyvenv.cfg
+api-tecnofinca/*

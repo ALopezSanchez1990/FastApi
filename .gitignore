@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 # TONI -> Archivos del venv
-api-tecnofinca/pyvenv.cfg
-api-tecnofinca/*
+api-venv/pyvenv.cfg
+api-venv/*

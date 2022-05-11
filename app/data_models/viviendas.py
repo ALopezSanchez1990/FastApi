@@ -1,8 +1,7 @@
-from pydantic import BaseModel, Field
+from dataclasses import dataclass
 
-
-class Vivienda(BaseModel):
-    tipo: str
-    ciudad: str
+@dataclass
+class Vivienda:
+    id: int
+    descripcion: str
     titulo: str | None
-    precio: int | None = Field(gt=0)

@@ -17,10 +17,8 @@ def get_connection():
         return conn
     except (Exception, psycopg.DatabaseError) as error:
         print("Error al conectar:", error)
-    #finally:
-     #   if conn is not None:
-      #      conn.close()
-       #     print('Database connection closed.')
+        if (conn is not None):
+            conn.close()
 
 def close_connection(conn: psycopg.Connection):
     if (conn is not None):

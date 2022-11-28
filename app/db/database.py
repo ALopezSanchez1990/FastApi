@@ -10,10 +10,9 @@ def get_connection():
             dbname="TestDB",
             host="localhost",
             port=5432,
-            user="postgres",
-            password="admin"
+            user="",
+            password=""
         );
-        print("Conectado")
         return conn
     except (Exception, psycopg.DatabaseError) as error:
         print("Error al conectar:", error)
